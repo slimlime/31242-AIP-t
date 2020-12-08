@@ -1,0 +1,8 @@
+{
+  "extends": "./tsconfig.json",
+  "esModuleInterop": true,
+  "compilerOptions": {
+    "sourceMap": false
+  },
+  "exclude": ["spec", "src/**/*.mock.ts", "src/public/"]
+}

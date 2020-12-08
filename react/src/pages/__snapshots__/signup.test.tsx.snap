@@ -1,0 +1,200 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignUp should render correctly 1`] = `
+<WithStyles(ForwardRef(Container))
+  component="main"
+  maxWidth="xs"
+>
+  <div
+    className="paper"
+  >
+    <WithStyles(ForwardRef(Typography))
+      component="h1"
+      id="header"
+      variant="h4"
+    >
+      Sign Up
+    </WithStyles(ForwardRef(Typography))>
+    <WithStyles(ForwardRef(FormControl))
+      className="form"
+    >
+      <WithStyles(ForwardRef(TextField))
+        fullWidth={true}
+        id="username"
+        label="User Name"
+        margin="normal"
+        name="username"
+        onChange={[Function]}
+        onFocus={[Function]}
+        required={true}
+        value=""
+        variant="outlined"
+      />
+      <WithStyles(ForwardRef(TextField))
+        fullWidth={true}
+        id="display_name"
+        label="Display Name"
+        margin="normal"
+        name="display_name"
+        onChange={[Function]}
+        onFocus={[Function]}
+        required={true}
+        value=""
+        variant="outlined"
+      />
+      <WithStyles(ForwardRef(TextField))
+        error={false}
+        fullWidth={true}
+        id="password"
+        label="Password"
+        margin="normal"
+        name="password"
+        onChange={[Function]}
+        onFocus={[Function]}
+        required={true}
+        type="password"
+        value=""
+        variant="outlined"
+      />
+      <div
+        id="passwordRequirements"
+      >
+        <ForwardRef(Grow)
+          in={false}
+          timeout={500}
+        >
+          <WithStyles(ForwardRef(Paper))
+            id="passwordCriteria"
+          >
+            <p
+              id="passwordCriteriaHeader"
+            >
+              Password Criteria
+            </p>
+            <p
+              id="characterLength"
+            >
+              Needs to be at least 8 characters
+            </p>
+            <p
+              id="uppercaseCharacter"
+            >
+              Needs to have one upper-case character
+            </p>
+            <p
+              id="specialCharacter"
+            >
+              Needs to have one special character - e.g. !@#$%
+            </p>
+          </WithStyles(ForwardRef(Paper))>
+        </ForwardRef(Grow)>
+      </div>
+      <WithStyles(ForwardRef(Button))
+        color="primary"
+        disabled={true}
+        fullWidth={true}
+        id="submit"
+        onClick={[Function]}
+        size="large"
+        type="submit"
+        variant="contained"
+      >
+        <WithStyles(ForwardRef(CircularProgress))
+          color="inherit"
+          id="loading"
+          size={35}
+        />
+        <label
+          id="signUpText"
+        >
+          Sign Up
+        </label>
+      </WithStyles(ForwardRef(Button))>
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        spacing={1}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={8}
+        >
+          <div
+            id="goBack"
+          >
+            <MeetingRoomIcon
+              color="primary"
+              fontSize="small"
+            />
+            <WithStyles(ForwardRef(Link))
+              component={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "displayName": "Link",
+                  "propTypes": Object {
+                    "innerRef": [Function],
+                    "onClick": [Function],
+                    "replace": [Function],
+                    "target": [Function],
+                    "to": [Function],
+                  },
+                  "render": [Function],
+                }
+              }
+              to="/home"
+            >
+              Home
+            </WithStyles(ForwardRef(Link))>
+          </div>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={4}
+        >
+          <div
+            id="goSign"
+          >
+            <WithStyles(ForwardRef(Link))
+              component={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "displayName": "Link",
+                  "propTypes": Object {
+                    "innerRef": [Function],
+                    "onClick": [Function],
+                    "replace": [Function],
+                    "target": [Function],
+                    "to": [Function],
+                  },
+                  "render": [Function],
+                }
+              }
+              to={
+                Object {
+                  "pathname": "/login",
+                  "state": Object {
+                    "unauthenticated": "",
+                  },
+                }
+              }
+            >
+              Sign in instead
+            </WithStyles(ForwardRef(Link))>
+          </div>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(FormControl))>
+    <WithStyles(ForwardRef(Snackbar))
+      anchorOrigin={
+        Object {
+          "horizontal": "left",
+          "vertical": "bottom",
+        }
+      }
+      autoHideDuration={5000}
+      message=""
+      onClose={[Function]}
+      open={false}
+    />
+  </div>
+</WithStyles(ForwardRef(Container))>
+`;

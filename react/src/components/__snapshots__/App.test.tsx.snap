@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should render correctly 1`] = `
+<BrowserRouter>
+  <ContextProvider
+    value={
+      Object {
+        "updateUser": [Function],
+        "user": Object {
+          "name": "?",
+        },
+      }
+    }
+  >
+    <Switch>
+      <Route
+        component={[Function]}
+        path="/user"
+      />
+      <Route
+        component={[Function]}
+        path="/signup"
+      />
+      <Route
+        component={[Function]}
+        path="/login"
+      />
+      <Route
+        component={[Function]}
+        path="/home"
+      />
+      <Route
+        exact={true}
+        path="/"
+      >
+        <Redirect
+          to="/home"
+        />
+      </Route>
+    </Switch>
+  </ContextProvider>
+</BrowserRouter>
+`;
